@@ -1,15 +1,19 @@
 USE employees;
 
-select * from employees
+select *
+from employees
 WHERE first_name IN ('Irena', 'Vidya', 'Maya');
 
-select * from employees
+select *
+from employees
 WHERE last_name LIKE 'E%';
 
-select * from employees
+select *
+from employees
 WHERE hire_date between '1990-01-01' AND '1999-12-31';
 
-select * from employees
+select *
+from employees
 WHERE birth_date LIKE '%-12-25';
 
 select *
